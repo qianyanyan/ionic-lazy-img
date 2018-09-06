@@ -1,0 +1,10 @@
+{
+  "name": "myApp",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/ec",
+      "proxyUrl": "http://10.5.96.126/ec"
+    }
+  ]
+}

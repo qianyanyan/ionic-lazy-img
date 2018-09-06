@@ -1,0 +1,28 @@
+<ion-view view-title="chats">
+	<style type="text/css">
+		.image-loader-container{
+	      height: 40px;
+	      position: absolute;
+	      top: 50%;
+	      margin-top: -16px;
+	      left: 22px;
+	    }
+	</style>
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear"   ng-click="sideLeftMenu()" ng-class="{true: 'ion-navicon', false:'ion-arrow-left-c'}[isActive.leftActive]"></button>
+    </ion-nav-buttons>
+    <ion-content scroll="true" class="" scroller>
+    	
+	    <ion-list>
+	      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.chatdata}}">
+	        <!-- <img ng-src="{{chat.face}}"> -->
+	        <img image-lazy-src="{{chat.face}}" 
+    	src="./img/noimg.png" onerror="this.src='./img/noimg.png'"  image-lazy-distance-from-bottom-to-load="100"/>
+	        <h2>{{chat.name}}</h2>
+	        <p>{{chat.lastText}}</p>
+	        <i class="icon ion-chevron-right icon-accessory"></i>
+	      </ion-item>
+	    </ion-list>
+	    
+    </ion-content>
+</ion-view>

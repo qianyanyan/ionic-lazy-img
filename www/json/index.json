@@ -1,0 +1,68 @@
+{
+    "banner": {
+        "item":[
+            {
+                "img":"images/tmp/1.jpg", 
+                "url":"www.baidu.com"
+            },
+            {
+                "img":"images/tmp/2.jpg",
+                "url":"http://www.sina.com.cn/"
+            },
+            {
+                "img":"images/tmp/3.jpg",
+                "url":"http://www.qq.com/"
+            }
+        ]
+    }, 
+    "coupon": {
+        "item": [
+            {
+                "time": "2016.01.01-2017.05.14", 
+                "money": 787, 
+                "use": 7878, 
+                "isGet": 0, 
+                "url": "http://mall.e-wj.dev:40080/store/41"
+            }, 
+            {
+                "time": "2016.01.01-2017.05.14 ", 
+                "money": 787, 
+                "use": 7878, 
+                "isGet": 1, 
+                "url": "http://mall.e-wj.dev:40080/store/44"
+            }
+        ]
+    }, 
+    "tejia": {
+        "item": [
+            {
+                "url": "http://mall.e-wj.dev:40080/ware/43", 
+                "img": "http://image.tianjimedia.com/uploadImages/2011/306/EQ2E3ZUPNMNV.jpg", 
+                "name": "test_1_特卖", 
+                "nowMoney": 40, 
+                "oldMoeny": 45
+            }, 
+            {
+                "url": "http://mall.e-wj.dev:40080/ware/43", 
+                "img": "../../json/60.jpg", 
+                "name": "test_2_特卖", 
+                "nowMoney": 40, 
+                "oldMoeny": 45
+            },
+            {
+                "url": "http://mall.e-wj.dev:40080/ware/43", 
+                "img": "http://tupian.qqjay.com/u/2013/1127/19_222949_14.jpg", 
+                "name": "test_3_特卖", 
+                "nowMoney": 40, 
+                "oldMoeny": 45
+            }, 
+            {
+                "url": "http://mall.e-wj.dev:40080/ware/43", 
+                "img": "http://tupian.qqjay.com/u/2013/1127/19_222949_14.jpg", 
+                "name": "test_4_特卖", 
+                "nowMoney": 40, 
+                "oldMoeny": 45
+            }
+        ]
+    }
+}

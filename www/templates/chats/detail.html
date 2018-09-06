@@ -1,0 +1,23 @@
+<ion-view view-title="{{chat.name}}">
+  <style type="text/css">
+    .image-loader-container{
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        margin-top: -13px;
+        left: 18px;
+      }
+  </style>
+  <ion-content class="padding" lazy-scroll>
+  <h5>点击图片有弹窗</h5>
+    <div ng-click="tanpop(chat)">
+    	<!-- <img ng-src="./img/noimg.png" style="width: 64px; height: 64px"> -->
+    	<!--  ion-content上加lazy-scroll-->
+      <img style="width: 64px; height: 64px" image-lazy-loader="spiral" image-lazy-src="{{chat.face}}" 
+    	src="./img/noimg.png" onerror="this.src='./img/noimg.png'"  image-lazy-distance-from-bottom-to-load="200"/> 
+	    <p>
+	      {{chat.lastText}}
+	    </p>
+    </div>
+  </ion-content>
+</ion-view>
